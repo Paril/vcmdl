@@ -1,0 +1,210 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VCMDL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\bob\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\Units" /I ".\ShlBrows" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VCMDL.pch" /Yu /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\vcmdl\Units\Bones.cpp"
+"E:\vcmdl\Units\Colors.cpp"
+"E:\vcmdl\Units\DibFuncs.cpp"
+"E:\vcmdl\Units\Keyboard.cpp"
+"E:\vcmdl\Units\Light.cpp"
+"E:\vcmdl\Units\MainFunc.cpp"
+"E:\vcmdl\Units\MATRIX.CPP"
+"E:\vcmdl\Units\MdlConst.cpp"
+"E:\vcmdl\Units\MDLGlobs.cpp"
+"E:\vcmdl\Units\MDLType.cpp"
+"E:\vcmdl\Units\MenuItem.cpp"
+"E:\vcmdl\Units\OldMdlCn.cpp"
+"E:\vcmdl\Units\ProgSet.cpp"
+"E:\vcmdl\Units\RegClass.cpp"
+"E:\vcmdl\Units\RegCtrl.cpp"
+"E:\vcmdl\Units\Undo.cpp"
+"E:\vcmdl\Units\Undo3D.cpp"
+"E:\vcmdl\BonesTab.cpp"
+"E:\vcmdl\BottmDlg.cpp"
+"E:\vcmdl\CreatTab.cpp"
+"E:\vcmdl\ModTab.cpp"
+"E:\vcmdl\SideDlg.cpp"
+"E:\vcmdl\VCMDLDlg.cpp"
+"E:\vcmdl\ViewTab.cpp"
+"E:\vcmdl\ATabCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\bob\LOCALS~1\Temp\RSP56.tmp" 
+Creating temporary file "C:\DOCUME~1\bob\LOCALS~1\Temp\RSP57.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\Units" /I ".\ShlBrows" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VCMDL.pch" /YX"StdAfx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\vcmdl\Units\KeyFuncs.cpp"
+"E:\vcmdl\Units\UndoSkin.cpp"
+"E:\vcmdl\ExTypDlg.cpp"
+"E:\vcmdl\SBotmDlg.cpp"
+"E:\vcmdl\SkinDlg.cpp"
+"E:\vcmdl\SModTab.cpp"
+"E:\vcmdl\SToolDlg.cpp"
+"E:\vcmdl\ClrCfgPg.cpp"
+"E:\vcmdl\DirCfgPg.cpp"
+"E:\vcmdl\KeyCfgPg.cpp"
+"E:\vcmdl\KeyDlg.cpp"
+"E:\vcmdl\Clrbutn.cpp"
+"E:\vcmdl\ColLstBx.cpp"
+"E:\vcmdl\PaintDlg.cpp"
+"E:\vcmdl\PaintTab.cpp"
+"E:\vcmdl\ConDlg.cpp"
+"E:\vcmdl\MiscDlgs.cpp"
+"E:\vcmdl\PasteDlg.cpp"
+"E:\vcmdl\TypeDlg.cpp"
+"E:\vcmdl\DlgGlobs.cpp"
+"E:\vcmdl\Units\HelperFuncs.cpp"
+"E:\vcmdl\UndoCfg.cpp"
+"E:\vcmdl\VCMdl.cpp"
+"E:\vcmdl\ShlBrows\SHFile.cpp"
+"E:\vcmdl\ShlBrows\SHPidl.cpp"
+"E:\vcmdl\ShlBrows\SHTree.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\bob\LOCALS~1\Temp\RSP57.tmp" 
+Creating temporary file "C:\DOCUME~1\bob\LOCALS~1\Temp\RSP58.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\Units" /I ".\ShlBrows" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VCMDL.pch" /Yc"StdAfx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\vcmdl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\bob\LOCALS~1\Temp\RSP58.tmp" 
+Creating temporary file "C:\DOCUME~1\bob\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/VCMDL.pdb" /debug /machine:I386 /out:"Debug/VCMDL.exe" /pdbtype:sept 
+.\Debug\Bones.obj
+.\Debug\Colors.obj
+.\Debug\DibFuncs.obj
+.\Debug\Keyboard.obj
+.\Debug\KeyFuncs.obj
+.\Debug\Light.obj
+.\Debug\MainFunc.obj
+.\Debug\MATRIX.OBJ
+.\Debug\MdlConst.obj
+.\Debug\MDLGlobs.obj
+.\Debug\MDLType.obj
+.\Debug\MenuItem.obj
+.\Debug\OldMdlCn.obj
+.\Debug\ProgSet.obj
+.\Debug\RegClass.obj
+.\Debug\RegCtrl.obj
+.\Debug\Undo.obj
+.\Debug\Undo3D.obj
+.\Debug\UndoSkin.obj
+.\Debug\BonesTab.obj
+.\Debug\BottmDlg.obj
+.\Debug\CreatTab.obj
+.\Debug\ExTypDlg.obj
+.\Debug\ModTab.obj
+.\Debug\SideDlg.obj
+.\Debug\VCMDLDlg.obj
+.\Debug\ViewTab.obj
+.\Debug\SBotmDlg.obj
+.\Debug\SkinDlg.obj
+.\Debug\SModTab.obj
+.\Debug\SToolDlg.obj
+.\Debug\ClrCfgPg.obj
+.\Debug\DirCfgPg.obj
+.\Debug\KeyCfgPg.obj
+.\Debug\KeyDlg.obj
+.\Debug\Clrbutn.obj
+.\Debug\ColLstBx.obj
+.\Debug\PaintDlg.obj
+.\Debug\PaintTab.obj
+.\Debug\ATabCtrl.obj
+.\Debug\ConDlg.obj
+.\Debug\MiscDlgs.obj
+.\Debug\PasteDlg.obj
+.\Debug\TypeDlg.obj
+.\Debug\DlgGlobs.obj
+.\Debug\HelperFuncs.obj
+.\Debug\StdAfx.obj
+.\Debug\UndoCfg.obj
+.\Debug\VCMdl.obj
+.\Debug\SHFile.obj
+.\Debug\SHPidl.obj
+.\Debug\SHTree.obj
+.\Debug\VCMdl.res
+]
+Creating command line "link.exe @C:\DOCUME~1\bob\LOCALS~1\Temp\RSP59.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Bones.cpp
+e:\vcmdl\units\bones.cpp(704) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Colors.cpp
+e:\vcmdl\units\colors.cpp(101) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+DibFuncs.cpp
+e:\vcmdl\units\dibfuncs.cpp(3199) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Keyboard.cpp
+e:\vcmdl\units\keyboard.cpp(908) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Light.cpp
+e:\vcmdl\units\light.cpp(15) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+MainFunc.cpp
+e:\vcmdl\units\mainfunc.cpp(2876) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+MATRIX.CPP
+E:\vcmdl\Units\MATRIX.CPP(13) : error C2653: 'Vector3' : is not a class or namespace name
+E:\vcmdl\Units\MATRIX.CPP(13) : error C2065: 'Vector3' : undeclared identifier
+E:\vcmdl\Units\MATRIX.CPP(13) : error C2065: 'B' : undeclared identifier
+E:\vcmdl\Units\MATRIX.CPP(13) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+E:\vcmdl\Units\MATRIX.CPP(13) : error C2143: syntax error : missing ';' before 'const'
+E:\vcmdl\Units\MATRIX.CPP(13) : error C2143: syntax error : missing ';' before 'const'
+E:\vcmdl\Units\MATRIX.CPP(14) : error C2143: syntax error : missing ';' before '{'
+E:\vcmdl\Units\MATRIX.CPP(14) : error C2447: missing function header (old-style formal list?)
+E:\vcmdl\Units\MATRIX.CPP(19) : error C2653: 'Vector3' : is not a class or namespace name
+E:\vcmdl\Units\MATRIX.CPP(19) : error C2146: syntax error : missing ';' before identifier 'CrossProduct'
+E:\vcmdl\Units\MATRIX.CPP(19) : error C2501: 'Vector3' : missing storage-class or type specifiers
+E:\vcmdl\Units\MATRIX.CPP(19) : fatal error C1004: unexpected end of file found
+MdlConst.cpp
+e:\vcmdl\units\mdlconst.cpp(463) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+MDLGlobs.cpp
+e:\vcmdl\units\mdlglobs.cpp(87) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+MDLType.cpp
+e:\vcmdl\units\mdltype.cpp(4592) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+MenuItem.cpp
+e:\vcmdl\units\menuitem.cpp(141) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+OldMdlCn.cpp
+e:\vcmdl\units\oldmdlcn.cpp(10) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+ProgSet.cpp
+e:\vcmdl\units\progset.cpp(61) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+RegClass.cpp
+e:\vcmdl\units\regclass.cpp(292) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+RegCtrl.cpp
+e:\vcmdl\units\regctrl.cpp(650) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Undo.cpp
+e:\vcmdl\units\undo.cpp(328) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Undo3D.cpp
+e:\vcmdl\units\undo3d.cpp(476) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+BonesTab.cpp
+e:\vcmdl\bonestab.cpp(69) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+BottmDlg.cpp
+e:\vcmdl\bottmdlg.cpp(333) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+CreatTab.cpp
+e:\vcmdl\creattab.cpp(112) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Generating Code...
+Compiling...
+ModTab.cpp
+e:\vcmdl\modtab.cpp(198) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+SideDlg.cpp
+e:\vcmdl\sidedlg.cpp(124) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+VCMDLDlg.cpp
+e:\vcmdl\vcmdldlg.cpp(3531) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+ViewTab.cpp
+e:\vcmdl\viewtab.cpp(249) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+ATabCtrl.cpp
+e:\vcmdl\atabctrl.cpp(223) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+VCMDL.exe - 35 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
